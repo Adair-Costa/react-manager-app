@@ -1,0 +1,14 @@
+/* media query */
+@media(min-width: 575px) {
+    .footer-father {
+        padding: 1rem !important;
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width: 349px) {
+    .footer-father {
+        padding: 0.6rem !important;
+        font-size: 0.6rem;
+    }
+}

@@ -1,0 +1,6 @@
+/* media query */
+@media(max-width: 575px) {
+    .title-calc {
+        font-size: 1rem !important;
+    }
+}

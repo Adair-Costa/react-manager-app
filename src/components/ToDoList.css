@@ -1,0 +1,25 @@
+.remove-size {
+    font-size: 0.7rem;
+    margin-left: 0.4rem;
+}
+
+.input-check {
+    margin-top: 0.4rem;
+}
+
+/* media query */
+@media(max-width: 767px) {
+    .col-size {
+        width: 80% !important;
+    }
+}
+
+@media(max-width: 575px) {
+    .hidden-icons {
+        display: none;
+    }
+
+    .title-list {
+        font-size: 1rem !important;
+    }
+}

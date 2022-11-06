@@ -1,0 +1,30 @@
+/* media query */
+@media(max-width: 767px) {
+    .col-size {
+        width: 80% !important;
+    }
+}
+
+@media(max-width: 575px) {
+    .title-form {
+        font-size: 1rem !important;
+    }
+
+    .hidden-icons {
+        display: none;
+    }
+}
+
+@media(max-width: 262px) {
+    .size-button {
+        padding: 0.5rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width: 262px) {
+    .size-button {
+        padding: 0.4rem;
+        font-size: 0.6rem;
+    }
+}

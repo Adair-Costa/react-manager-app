@@ -1,0 +1,42 @@
+html, .bg-app {
+    background-color: #191970;
+    color: #ffffff;
+}
+
+/* div {
+    box-shadow: inset 0px 0px 3px white;
+} */
+
+/* media query */
+@media(max-width: 767px) {
+    .form-button {
+        margin: 0.5rem 0 0.5rem 0;
+    }
+}
+
+@media(max-width: 575px) {
+    .button-size {
+        font-size: 0.6rem;
+        padding: 0.4rem;
+    }
+
+    .hidden-icons {
+        display: none;
+    }
+
+    .title-app {
+        font-size: 1rem !important;
+    }
+}
+
+@media(max-width: 349px) {
+    .form-button {
+        margin: 0.5rem 0 0 0.6rem;
+    }
+}
+
+@media(max-width: 262px) {
+    .form-button {
+        margin-bottom: 0.5rem;
+    }
+}

@@ -1,0 +1,12 @@
+/* media query */
+@media(min-width: 575px) {
+    .text-size {
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width: 349px) {
+    .text-size {
+        font-size: 0.7rem;
+    }
+}
